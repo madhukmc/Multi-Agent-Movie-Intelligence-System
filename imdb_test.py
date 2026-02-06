@@ -12,9 +12,9 @@ from phi.model.google import Gemini
 # =====================================================
 load_dotenv()
 
-OMDB_API_KEY = "824843d5"
-TMDB_API_KEY = "43cf5554948ee0407cdfe5ed60baa0e1"
-GEMINI_API_KEY = "AIzaSyBRbEW_RAnpZQIwPIPfw_dxX0jAjkJqwqE"
+OMDB_API_KEY = ""    ###paste yoour API Keys
+TMDB_API_KEY = ""
+GEMINI_API_KEY = ""
 
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
@@ -196,3 +196,4 @@ ANSWER REJECTED
 
 st.markdown("---")
 st.caption("Streamlit • PhiData • Multi-Agent AI • Gemini • OMDb • TMDb")
+
